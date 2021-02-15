@@ -8,3 +8,9 @@ Unsupervised Feature Learning". NIPS Workshop on Deep Learning and Unsupervised 
 2011.
 My goal was to develop an end-to-end workflow for building, training, validating, evaluating and saving a neural
 network that classifies a real-world image into one of ten classes.
+
+
+# German to English Translator
+For the capstone project, i used  a language dataset from http://www.manythings.org/anki/ to build a neural translation model. This dataset consists of over 200,000 pairs of sentences in English and German. In order to make the training quicker, i restricted to the dataset to 20,000 pairs. Feel free to change this if you wish - the size of the dataset used is not part of the grading rubric.
+
+The main goal is to develop a neural translation model from English to German, making use of a pre-trained English word embedding module.
